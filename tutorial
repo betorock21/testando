@@ -1,0 +1,26 @@
+mkdir git-course  - Cria pastas no terminal
+cd git-course/  -  entra na pasta
+git init - verifica repositorio 
+cd .. -----sai do repositorio
+
+Git status
+git add (nome) 
+git commit -m "Descrição da pasta/modificação"
+
+Git log 
+Git show "gish" 
+git diff ------- ele te mostra a modificação antes de commitar e revisar erros ! 
+git diff --name-only  ------- ele mostra somente o nome dos arquivos modificados
+
+git reset --soft  --mixed --hard
+
+
+ cat id_rsa.pub ----- essa é a chave que voce ira usar
+git push origin master ----- envia as modificações do seu servidor para o servidor hub 
+
+
+
+git checkout -b "descrição" ----- novo branch
+git checkout "nome do branch" ---- navega entra os branch
+git checkout -D "deleta o branch"
+
